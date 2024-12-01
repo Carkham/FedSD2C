@@ -1,0 +1,35 @@
+# system hyper parameters
+sys_n_client: 10
+sys_i_seed: 42
+sys_res_root: train_results
+sys_model: ResNet18
+sys_dataset: TINYIMAGENET
+
+# client hyper parameters
+client_instance_lr: 0.01
+client_instance_bs: 64
+client_instance_n_epoch: 10
+client_instance: coreset+dist_syn
+
+# server
+server_n_epoch: 100
+server_bs: 128
+server_lr: 0.2
+server_momentum: 0.9
+server_optimizer: SGD
+
+# FedSD2C hyper parameters
+# Coreset init
+fedsd2c_mipc: 500
+fedsd2c_ipc: 50
+fedsd2c_num_crop: 10
+
+# Synthesis recovering
+fedsd2c_iteration: 100
+fedsd2c_jitter: 0
+fedsd2c_lr: 0.1
+fedsd2c_l2_scale: 0
+fedsd2c_tv_l2: 0
+fedsd2c_r_bn: 0
+fedsd2c_r_c: 0.01
+fedsd2c_iter_mode: ipc

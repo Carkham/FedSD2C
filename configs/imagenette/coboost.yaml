@@ -1,0 +1,44 @@
+# system hyper parameters
+sys_n_client: 10
+sys_i_seed: 42
+sys_res_root: train_results
+sys_model: ResNet18
+sys_dataset: Imagenette
+
+# client hyper parameters
+client_instance_lr: 0.01
+client_instance_bs: 128
+client_instance_n_epoch: 100
+client_instance: CoBoost
+
+# server
+server_n_epoch: 100
+server_bs: 16
+server_lr: 0.1
+server_momentum: 0.9
+server_optimizer: SGD
+
+# DENSE parameters
+dfkd_z_dim: 256
+dfkd_temp: 1.0
+dfkd_r_bn: 1.0
+dfkd_r_adv: 1.0
+dfkd_r_bal: 20
+dfkd_r_oh: 1.0
+dfkd_giter: 30
+dfkd_miter: 10
+dfkd_img_size: 128
+dfkd_batch_size: 8
+# cb parameters
+cb_temp: 1
+cb_r_bn: 1
+cb_div: 1
+cb_giter: 30
+cb_miter: 10
+cb_witer: 10
+cb_hs: 1.0
+cb_oh: 1.0
+cb_mu: 0.01
+cb_wdc: 0.99
+cb_weighted: True
+cb_odseta: 8

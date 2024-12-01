@@ -1,0 +1,19 @@
+# system hyper parameters
+sys_n_client: 10
+sys_i_seed: 42
+sys_res_root: train_results
+sys_model: ResNet18
+sys_dataset: Imagenette
+
+# client hyper parameters
+client_instance_lr: 0.01
+client_instance_bs: 128
+client_instance_n_epoch: 100
+client_instance: ENSEMBLE
+
+# server
+server_n_epoch: 100
+server_bs: 64
+server_lr: 0.01
+server_momentum: 0.9
+server_optimizer: SGD

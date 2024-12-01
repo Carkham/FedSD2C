@@ -1,0 +1,28 @@
+# system hyper parameters
+sys_n_client: 10
+sys_i_seed: 42
+sys_res_root: train_results
+sys_model: ResNet18
+sys_dataset: TINYIMAGENET
+
+# client hyper parameters
+client_instance_lr: 0.01
+client_instance_bs: 128
+client_instance_n_epoch: 200
+client_instance: FedAVG
+
+# server
+server_n_epoch: 100
+server_bs: 64
+server_lr: 0.01
+server_momentum: 0.9
+server_optimizer: SGD
+
+# DENSE parameters
+dfkd_z_dim: 512
+dfkd_temp: 1.0
+dfkd_r_bn: 1.0
+dfkd_r_adv: 1.0
+dfkd_r_bal: 20
+dfkd_giter: 2
+dfkd_miter: 10

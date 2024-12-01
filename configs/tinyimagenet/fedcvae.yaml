@@ -1,0 +1,23 @@
+# system hyper parameters
+sys_n_client: 10
+sys_i_seed: 42
+sys_res_root: train_results
+sys_model: ResNet18
+sys_dataset: TINYIMAGENET
+
+# client hyper parameters
+client_instance_lr: 0.001
+client_instance_bs: 32
+client_instance_n_epoch: 20
+client_instance: FedCVAE
+
+# server
+server_n_epoch: 100
+server_bs: 128
+server_lr: 0.001
+server_momentum: 0.9
+server_optimizer: Adam
+
+# FedCVAE parameters
+cvae_z_dim: 256
+cvae_beta: 1.0
