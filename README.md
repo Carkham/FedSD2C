@@ -2,7 +2,7 @@
      One-shot Federated Learning via Synthetic Distiller-Distillate Communication
 </h1>
 
-This repository contains the code for the paper "One-shot Federated Learning via Synthetic Distiller-Distillate Communication".
+This repository contains the code for the paper "**(NeurIPS 2024) One-shot Federated Learning via Synthetic Distiller-Distillate Communication**".
 
 ![framework](figures/FedSD2C_framework.png)
 
