@@ -82,7 +82,17 @@ python oneshot_main.py \
 
 ## Citation
  ```bibtex
-
+@inproceedings{NEURIPS2024_ba0ad9d1,
+ author = {Zhang, Junyuan and Liu, Songhua and Wang, Xinchao},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {102611--102633},
+ publisher = {Curran Associates, Inc.},
+ title = {One-shot Federated Learning via Synthetic Distiller-Distillate Communication},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/ba0ad9d1e0c737800b2340b9cd68c208-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
+}
 ```
 
 ## Acknowledgement
